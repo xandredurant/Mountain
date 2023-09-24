@@ -77,4 +77,4 @@ Follow these steps to set up and run the Mountain Sprint application:
 If you would like to contribute to this project or report issues, please follow the contributing guidelines.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE.txt) - see the [LICENSE.txt](LICENSE.txt) file for details.
