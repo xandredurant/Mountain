@@ -13,7 +13,10 @@ class mainWindow(qtw.QWidget):
     # Inside this class, self refers to QtWidgets.QMainWindow which is the top level window.
     def __init__(self):
         super().__init__()
-        
+        self.cnxn_str = ("DSN=MySQLServer;"
+                    "SERVER=DESKTOP-EFKRIC4;"
+                    "Database=MountainDb;"
+                    "Trusted_Connection=yes;");
         # Sprint-7 Step-2 (Extended previous Sprint-4 Step-2 to
         #                  create a dictionary called self.water_data)
         # Variables to store canvas dimentions and related data
@@ -173,11 +176,7 @@ class mainWindow(qtw.QWidget):
 
         # Sprint-5 Step-9
         # Create a connection (called connection) to your MountainDB 
-        cnxn_str = ("Driver={SQL Server Native Client 11.0};"
-                    "SERVER=DESKTOP-EFKRIC4;"
-                    "Database=MountainDb;"
-                    "Trusted_Connection=yes;")
-        connection = pyodbc.connect(cnxn_str)
+        connection = pyodbc.connect(self.cnxn_str)
         
         # Sprint-5 Step-10
         # Write the meta data of the text input file to the Files table - if such
@@ -262,11 +261,7 @@ class mainWindow(qtw.QWidget):
 
         # Sprint-5 Step-23
         # Create a connection (called connection) to your MountainDB
-        cnxn_str = ("Driver={SQL Server Native Client 11.0};"
-                    "SERVER=DESKTOP-EFKRIC4;"
-                    "Database=MountainDb;"
-                    "Trusted_Connection=yes;")
-        connection = pyodbc.connect(cnxn_str)
+        connection = pyodbc.connect(self.cnxn_str)
 
         # Sprint-5 Step-24
         # Read the record in the Files table where File_name has the same
