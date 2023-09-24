@@ -12,18 +12,18 @@ This application retrieves data points from text files, loads them into a databa
 
 The project is organized as follows:
 
-mountain/
-│
-├── App/
-│ ├── CreateDb.sql
-│ └── mountain.py
-│
-└── Data/
-├── logo.png
-├── large.txt
-├── medium.txt
-├── small.txt
-└── trivial.txt
+`mountain/`
+`│`
+`├── App/`
+`│   ├── CreateDb.sql`
+`│   └── mountain.py`
+`│`
+`└── Data/`
+`    ├── logo.png`
+`    ├── large.txt`
+`    ├── medium.txt`
+`    ├── small.txt`
+`    └── trivial.txt`
 
 - **App/**: Contains application-related files.
   - `CreateDb.sql`: SQL script to create the database, tables, and fields.
