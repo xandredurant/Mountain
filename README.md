@@ -15,15 +15,15 @@ The project is organized as follows:
 mountain/
 │
 ├── App/
-│ ├── CreateDb.sql
-│ └── mountain.py
+│   ├── CreateDb.sql
+│   └── mountain.py
 │
 └── Data/
-├── logo.png
-├── large.txt
-├── medium.txt
-├── small.txt
-└── trivial.txt
+    ├── logo.png
+    ├── large.txt
+    ├── medium.txt
+    ├── small.txt
+    └── trivial.txt
 ```
 - **App/**: Contains application-related files.
   - `CreateDb.sql`: SQL script to create the database, tables, and fields.
