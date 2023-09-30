@@ -73,8 +73,8 @@ Follow these steps to set up and run the Mountain Sprint application:
 7. Run the Mountain Sprint application:
     python App/mountain.py
 
-## Contributing
-If you would like to contribute to this project or report issues, please follow the contributing guidelines.
-
 ## License
 This project is licensed under the [MIT License](LICENSE.txt) - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+## Acknowledgments
+This project was created as part of the Sprints that took place in the first year of CTU.
