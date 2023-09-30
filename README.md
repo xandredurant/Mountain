@@ -47,7 +47,7 @@ Follow these steps to set up and run the Mountain Sprint application:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/xandredurant/Mountain
+   git clone https://github.com/xandredurant/Mountain.git
    
 2. Navigate to the project directory:
     cd mountain
