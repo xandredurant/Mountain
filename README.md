@@ -1,7 +1,5 @@
 # Mountain Sprint
 
-![Mountain Sprint Demo](demo.gif)
-
 Mountain Sprint is a Python application that simulates the flow of water down a mountain. This project was developed as a part of the CTU First Year Project.
 
 ## Overview
